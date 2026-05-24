@@ -1,3 +1,5 @@
+# 🚀 AI & Data Jobs Market Intelligence Dashboard 2026
+
 A polished static dashboard prototype for AI + data jobs market intelligence in 2026. This repository delivers a modern analyst dashboard experience with job market KPIs, skill trends, and regional hiring insights.
 
 ## 🌟 Overview
