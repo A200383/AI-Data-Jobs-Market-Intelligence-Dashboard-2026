@@ -12,6 +12,10 @@ A static dashboard prototype for AI and data jobs market intelligence in 2026.
 
 Open `index.html` in a browser. No build step is required.
 
+## GitHub Pages
+
+The dashboard can be published automatically via GitHub Actions to GitHub Pages once this workflow runs on `main`.
+
 ## Features
 
 - Summary KPIs for jobs, salary, growth, and skills
