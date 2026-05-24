@@ -1,64 +1,67 @@
-🚀 AI & Data Jobs Market Intelligence Dashboard 2026
+A polished static dashboard prototype for AI + data jobs market intelligence in 2026. This repository delivers a modern analyst dashboard experience with job market KPIs, skill trends, and regional hiring insights.
 
-A static dashboard prototype for AI and data jobs market intelligence in 2026.
+## 🌟 Overview
 
-📂 Files
-📄 index.html — dashboard layout and content
-🎨 styles.css — visual styling and responsive layout
-⚡ app.js — KPI rendering and Chart.js visualizations
-▶️ Run Locally
-Open index.html
-Run directly in any browser 🌐
-No build step required ✅
-🌍 GitHub Pages
+This project is built as a static front-end dashboard that visualizes AI and data labor market intelligence. The dashboard is ideal for recruiters, hiring managers, and analytics teams looking to showcase demand trends in:
 
-The dashboard can be deployed automatically using ⚙️ GitHub Actions when pushed to the main branch.
+- AI/ML engineering
+- Data science
+- Analytics engineering
+- MLOps and platform roles
+- Business intelligence
 
-✨ Features
-📊 KPI Overview
-👨‍💻 Total AI & Data Jobs
-💰 Average Salary
-📈 Hiring Growth
-🧠 Top Skills Demand
-📉 Visual Analytics
-📊 Role demand bar chart
-🌎 Regional demand doughnut chart
-🧭 Skill-share polar area chart
-🔥 Hiring trend indicators
-💡 Market Insights
-🚀 Emerging AI skills
-📍 Regional hiring hotspots
-💵 Salary premium analysis
-⚠️ Declining technologies
-📈 Future hiring projections
-🛠️ Recommended Upgrades
-🔗 Real Data Integration
+## 📦 Files
 
-Connect:
+- `index.html` — dashboard layout, structure, and page content
+- `styles.css` — responsive dark theme design and layout styling
+- `app.js` — KPI rendering, chart setup, and data interaction logic
+- `.github/workflows/deploy-pages.yml` — GitHub Actions workflow for GitHub Pages deployment
 
-💼 LinkedIn Jobs
-🌐 Indeed
-📊 Kaggle datasets
-🤖 Adzuna API
-🧠 Intelligence Layer
+## 🧪 Live preview
 
-Add:
+Open `index.html` locally in any browser.
 
-📈 Forecasting models
-🔍 Trend detection
-⚡ Skill growth tracking
-🤖 AI-generated insights
-🎛️ Interactive Filters
-🌍 Region filter
-🧑‍💼 Experience level
-🏢 Company size
-🏠 Remote vs Onsite
-💰 Salary range
-🎯 Goal
+If the GitHub Pages workflow completes, the live dashboard will be available at:
 
-Transform the dashboard from a simple chart project into a real market intelligence platform that helps:
+`https://a200383.github.io/AI-Data-Jobs-Market-Intelligence-Dashboard-2026/`
 
-👨‍🎓 Job seekers
-🏢 Recruiters
-📊 Analysts
-🤖 AI professionals
+## 🚀 Features
+
+- 📊 Summary KPIs for total openings, average salary, growth, and top skill
+- 📈 Role demand bar chart for major AI and data job families
+- 🌍 Global demand doughnut chart for market regions
+- 🧠 Skill share polar area chart for trending competencies
+- � Interactive jobs table with search and sortable columns
+- �💬 Insight blocks with market context and hiring highlights
+- 🔁 Refresh interaction for simulated data updates
+
+## 🛠️ Tech stack
+
+- HTML + CSS for static UI
+- JavaScript for dynamic KPI updates and chart rendering
+- [Chart.js](https://www.chartjs.org/) for visualizations
+- GitHub Actions and GitHub Pages for deployment
+
+## 🔧 Customize
+
+To update the dashboard content:
+
+1. Edit `app.js` data values and labels.
+2. Update `index.html` messaging or KPIs.
+3. Adjust colors, spacing, and theme in `styles.css`.
+
+## 💡 Future enhancements
+
+- Connect to live market data APIs
+- Add filters for industry, seniority, and remote work
+- Add export/share functionality for reports
+- Add a dark/light theme toggle
+
+## 🤝 Contribution
+
+Feel free to clone the repo and customize the dashboard for your own market intelligence use case.
+
+## 📌 Notes
+
+- Designed as a static dashboard prototype with a professional enterprise look
+- Easily extensible to real-time AI and data jobs market data sources
