@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI & Data Jobs Market Intelligence Dashboard 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Market Intelligence</p>
+      <h1>AI & Data Jobs Market Intelligence Dashboard 2026</h1>
+      <p class="subtitle">Live KPIs, role demand, salary ranges, regional momentum, and skill trends for the AI & Data industry.</p>
+    </div>
+    <div class="hero-actions">
+      <span class="badge">Updated: May 2026</span>
+      <button id="refreshBtn">Refresh data</button>
+    </div>
+  </header>
+
+  <main class="dashboard-grid">
+    <section class="kpi-panel">
+      <article class="kpi-card">
+        <p class="kpi-label">Total active openings</p>
+        <h2 id="jobsTotal">142,800</h2>
+      </article>
+      <article class="kpi-card">
+        <p class="kpi-label">Average salary</p>
+        <h2 id="avgSalary">$144k</h2>
+      </article>
+      <article class="kpi-card">
+        <p class="kpi-label">Year-over-year growth</p>
+        <h2 id="yoyGrowth">+18.7%</h2>
+      </article>
+      <article class="kpi-card">
+        <p class="kpi-label">Top trending skill</p>
+        <h2 id="topSkill">Large Language Models</h2>
+      </article>
+    </section>
+
+    <section class="chart-card full-width">
+      <div class="card-header">
+        <div>
+          <h3>Role demand by job family</h3>
+          <p>AI and data positions showing the strongest hiring momentum across industries.</p>
+        </div>
+      </div>
+      <canvas id="roleChart"></canvas>
+    </section>
+
+    <section class="chart-card half-width">
+      <div class="card-header">
+        <div>
+          <h3>Demand growth by region</h3>
+          <p>Regional market momentum for AI & Data roles in 2026.</p>
+        </div>
+      </div>
+      <canvas id="regionChart"></canvas>
+    </section>
+
+    <section class="chart-card half-width">
+      <div class="card-header">
+        <div>
+          <h3>Skill share</h3>
+          <p>Most requested technical skills across open job descriptions.</p>
+        </div>
+      </div>
+      <canvas id="skillChart"></canvas>
+    </section>
+
+    <section class="insights-card full-width">
+      <h3>Market highlights</h3>
+      <div class="insight-grid">
+        <article>
+          <h4>AI hiring remains strong</h4>
+          <p>Demand for AI engineers and data scientists is strongest in healthcare, finance, and energy, with a 24% increase in openings since Q4 2025.</p>
+        </article>
+        <article>
+          <h4>Remote roles accelerate</h4>
+          <p>Remote-friendly positions grew to 43% of listed openings, led by machine learning engineering and platform analytics roles.</p>
+        </article>
+        <article>
+          <h4>Compensation edge</h4>
+          <p>AI research roles average $172k, while analytics engineering salaries rise fastest, up 12% year-over-year.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
