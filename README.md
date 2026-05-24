@@ -1,25 +1,64 @@
-# AI & Data Jobs Market Intelligence Dashboard 2026
+🚀 AI & Data Jobs Market Intelligence Dashboard 2026
 
 A static dashboard prototype for AI and data jobs market intelligence in 2026.
 
-## Files
+📂 Files
+📄 index.html — dashboard layout and content
+🎨 styles.css — visual styling and responsive layout
+⚡ app.js — KPI rendering and Chart.js visualizations
+▶️ Run Locally
+Open index.html
+Run directly in any browser 🌐
+No build step required ✅
+🌍 GitHub Pages
 
-- `index.html` — dashboard layout and content
-- `styles.css` — visual styling and responsive layout
-- `app.js` — KPI rendering and Chart.js visualizations
+The dashboard can be deployed automatically using ⚙️ GitHub Actions when pushed to the main branch.
 
-## Run locally
+✨ Features
+📊 KPI Overview
+👨‍💻 Total AI & Data Jobs
+💰 Average Salary
+📈 Hiring Growth
+🧠 Top Skills Demand
+📉 Visual Analytics
+📊 Role demand bar chart
+🌎 Regional demand doughnut chart
+🧭 Skill-share polar area chart
+🔥 Hiring trend indicators
+💡 Market Insights
+🚀 Emerging AI skills
+📍 Regional hiring hotspots
+💵 Salary premium analysis
+⚠️ Declining technologies
+📈 Future hiring projections
+🛠️ Recommended Upgrades
+🔗 Real Data Integration
 
-Open `index.html` in a browser. No build step is required.
+Connect:
 
-## GitHub Pages
+💼 LinkedIn Jobs
+🌐 Indeed
+📊 Kaggle datasets
+🤖 Adzuna API
+🧠 Intelligence Layer
 
-The dashboard can be published automatically via GitHub Actions to GitHub Pages once this workflow runs on `main`.
+Add:
 
-## Features
+📈 Forecasting models
+🔍 Trend detection
+⚡ Skill growth tracking
+🤖 AI-generated insights
+🎛️ Interactive Filters
+🌍 Region filter
+🧑‍💼 Experience level
+🏢 Company size
+🏠 Remote vs Onsite
+💰 Salary range
+🎯 Goal
 
-- Summary KPIs for jobs, salary, growth, and skills
-- Role demand bar chart
-- Regional demand doughnut chart
-- Skill share polar area chart
-- Market insight cards
+Transform the dashboard from a simple chart project into a real market intelligence platform that helps:
+
+👨‍🎓 Job seekers
+🏢 Recruiters
+📊 Analysts
+🤖 AI professionals
